@@ -16,8 +16,11 @@ let arrayDeStrings2: string[] = ['a', 'b'];
 // Objetos
 let pessoa: {nome: string, idade: number, adulto?: boolean} = {
   idade: 30,
-  nome: 'Luiz'
+  nome: 'Luiz',
+  adulto: false
 };
+
+console.log(pessoa)
 
 
 

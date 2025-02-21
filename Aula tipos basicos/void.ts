@@ -21,6 +21,9 @@ function semRetorno(...args: string[]): void {
     console.log(args.join(' '));
 }
 
+semRetorno('Luiz', 'Otávio');
+// ----- Aqui temos dois tipos ----- //
+
 const pessoa = {
     nome: 'Luiz',
     sobrenome: 'Otávio',
@@ -30,7 +33,6 @@ const pessoa = {
     },
 };
 
-semRetorno('Luiz', 'Otávio');
 pessoa.exibirNome();
 
 export { pessoa };
